@@ -1,19 +1,24 @@
-# Project_2
-Escaping 2020 on Earth, Time to Move to A Galaxy Far, FAR Away!
+# Project-2: Escaping 2020 on Earth 
+## Overview 
+* After experiencing the whirlwind that has been the year 2020, our team has decided to search for an alternative home. Through the examination of planets, species, and climates, as well as an analysis of spacecraft and vehicles, we will determine the best place to relocate.
+### Data Source
+* We used the Star Wars API which can be found <a href="https://swapi.dev/">HERE</a>.
+### Built With
+This project was built using the following frameworks/libraries/databases:
+* Python
+* Pandas
+* Flask
+* SQLite 
+* JavaScript
+* D3.js
+## How It Works
+* Data from the API was loaded into SQLite using Pandas. 
+* Our flask app then connected to the database and converted the data into a JSON object. 
+* Finally, JavaScript accesses this object through D3 in order to render our visuals.
+## Results
+* Our team recommends the planet Cato Neimoidia, the starship CR90 Corvette, the vehicle TIE/LN Starfighter, and the species Zabrak.
 
-	After experiencing the whirlwind that has been the year 2020, our group has decided to search for an alternative home.  Through the examination of planets, species, and climates, as well as an analysis of spacecraft, we will determine the best place to relocate.
-
-Data Sources:  Star Wars API: https://swapi.dev/documentation
-
-Data:
-
-In this project, we used request.get to pull in the data from from the api and used a while loop to get the data from each page of the api. We then converted the data into a csv file. Some of the data was further cleaned to remove rows with unknown values so that when we were creating our scatter graph, we would not run into issues.
-
-Flask:
-
-Flask was used to connect to our csv file, tansform it to jsonify and create routes so that our webpage would be able to pull in all the data for our javascript files. This allows us to be able to access all of our html file and have it load on one website.
-
-Visualizations:
+## Visualizations
 
 -Planets
 
