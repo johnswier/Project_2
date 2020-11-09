@@ -1,4 +1,4 @@
-# Escaping 2020 on Earth 
+# Escaping 2020 on Earth: Star Wars Edition
 ## Overview 
 * After experiencing the whirlwind that has been the year 2020, our team decided to search for an alternative home. Through the examination of planets, species, and climates, as well as an analysis of spacecraft and vehicles, we determined the best planet to inhabit.
 ### Data Source
