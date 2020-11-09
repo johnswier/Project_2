@@ -3,6 +3,8 @@
 * After experiencing the whirlwind that has been the year 2020, our team has decided to search for an alternative home. Through the examination of planets, species, and climates, as well as an analysis of spacecraft and vehicles, we will determine the best place to relocate.
 ### Data Source
 * We used the Star Wars API which can be found <a href="https://swapi.dev/">HERE</a>.
+### Heroku Deployment
+* You can visit our final app <a href="https://escaping-2020-on-earth.herokuapp.com/">HERE</a>.
 ### Built With
 This project was built using the following frameworks/libraries/databases:
 * Python
