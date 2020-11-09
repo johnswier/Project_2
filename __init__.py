@@ -14,6 +14,8 @@ import sqlite3
 ##############################################
 app = Flask(__name__)
 
+def getApp():
+    return app
 
 ##############################################
 # Database setup
@@ -23,14 +25,14 @@ app = Flask(__name__)
 engine = create_engine('sqlite:///star_wars_db.sqlite')
 
 #Use pandas to convert csv's into dataframes
-planets_csv = "./static/data/planets.csv"
-species_csv = "./static/data/species.csv"
-starships_csv = "./static/data/starships.csv"
-vehicles_csv = "./static/data/vehicles.csv"
-clean_planets_csv = "./static/data/clean_planets.csv"
-clean_species_csv = "./static/data/clean_species.csv"
-clean_vehicles_csv = "./static/data/clean_vehicles.csv"
-starship_2_csv = "./static/data/starship_2.csv"
+planets_csv = "static/data/planets.csv"
+species_csv = "static/data/species.csv"
+starships_csv = "static/data/starships.csv"
+vehicles_csv = "static/data/vehicles.csv"
+clean_planets_csv = "static/data/clean_planets.csv"
+clean_species_csv = "static/data/clean_species.csv"
+clean_vehicles_csv = "static/data/clean_vehicles.csv"
+starship_2_csv = "static/data/starship_2.csv"
 
 
 planets_df = pd.read_csv(planets_csv)
