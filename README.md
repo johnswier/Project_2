@@ -20,7 +20,7 @@ This project was built using the following frameworks/libraries/databases:
 
 ## Visualizations
 
--Planets
+### Planets
 
 ![planets](Images/planets.png)
 
@@ -28,7 +28,7 @@ In this page we used d3 to create a scatter graph that had changing axis. We als
 
 We recommended, that to escape earth, Cata Neimoidia would be a good planet to move to because it had a low population, not too long of days or years, and a decent climate/terrain.
 
--Spaceships
+### Spaceships
 
 ![spaceships](Images/spaceships.png)
 
@@ -36,7 +36,7 @@ We also used d3 in this page to create a table and a scatter graph with changing
 
 We recommended that to get to our new planet, that CR90 Corvette would be the best spaceship to travel on. We chose this spaceship because it wasn't too high in cost of credits, and it could hold a lot of passengers.
 
--Species
+### Species
 
 ![species](Images/species.png)
 
@@ -44,7 +44,7 @@ On this page, d3 was used to create a table that displayed information for soeci
 
 We thought that the Zabrak species would be the best species to travel with and too keep us safe from other aggressive species we might run into.
 
--Vehicles
+### Vehicles
 
 ![vehicles](Images/vehicles.png)
 
