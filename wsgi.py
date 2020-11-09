@@ -1,4 +1,4 @@
-import getApp
+import __init__
 
-app = getApp()
+app = __init__.getApp()
 
