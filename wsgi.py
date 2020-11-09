@@ -1,4 +1,4 @@
-from catalog import getApp
+import getApp
 
 app = getApp()
 
