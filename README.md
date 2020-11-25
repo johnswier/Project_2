@@ -5,6 +5,7 @@
 * We used the Star Wars API which can be found <a href="https://swapi.dev/">HERE</a>.
 ### Heroku Deployment
 * You can visit our final app <a href="https://escaping-2020-on-earth.herokuapp.com/">HERE</a>.
+* Flask app code <a href="https://github.com/johnswier/escaping-2020-on-earth/blob/main/__init__.py">HERE</a>.
 ### Built With
 This project was built using the following frameworks/libraries/databases:
 * Python
